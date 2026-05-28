@@ -4,7 +4,7 @@ import { Flame, Film, Gamepad2, Sparkles, User, Menu, X, Search } from 'lucide-r
 import { useSearch } from '../../contexts/SearchContext';
 
 const navLinks = [
-  { to: '/', label: 'Test', icon: Flame },
+  { to: '/', label: 'Accueil', icon: Flame },
   { to: '/films-series', label: 'Films/Séries', icon: Film },
   { to: '/jeux', label: 'Jeux', icon: Gamepad2 },
   { to: '/nouveautes', label: 'Nouveautés', icon: Sparkles },
